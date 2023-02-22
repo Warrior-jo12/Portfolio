@@ -43,9 +43,12 @@ const Banner = () => {
                 <Col xs={12} md={6} xl={7}>
                     <span className='tagline'>Welcome to my Portfolio</span>
                     <h1> {`Hi I'm Eyob Alemu`} <span className='wrap'>{text}</span></h1>
-                    <p>lorem texxt file is this ksdlawdwaldaldawmldmal lwdwldwdlw cnlwcwc
+                    <p> I'm a software engineering student at Jimma University. 
+                        I really enjoy learning programming language like python and JavaScript. On the other hand, frameworks
+                         like Django and React. Additionally, I'm interested on AI which I'm enthusiastic to learn more about it.
+
                     </p>
-                    <button onClick={()=> console.log('connect')}> Let's connect <ArrowRightCircle size={25}/></button>
+                    {/* <button onClick={()=> console.log('connect')}> Let's connect <ArrowRightCircle size={25}/></button> */}
                 </Col>
                 <Col xs={12} md={6} xl={5}>
                     <img src={headerImg} alt="header img"/>

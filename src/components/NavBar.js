@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import {Navbar , Container, Nav} from 'react-bootstrap'
-import { logo, navBarIcon1, navBarIcon2, navBarIcon3 , logo1} from '../assets';
+import { logo, navBarIcon1, navBarIcon2, navBarIcon3 , logo1, githubIcon, telegram} from '../assets';
+import {Github} from 'react-bootstrap-icons'
 
 const NavBar = () => {
   const [activeLink , setActiveLink] = useState('home')
@@ -44,11 +45,11 @@ const NavBar = () => {
                     </Nav>
                     <span className='navbar-text'>
                         <div className='social-icon'>
-                            <a href="#"><img src={navBarIcon1}/></a>
-                            <a href="#"><img src={navBarIcon2}/></a>
-                            <a href="#"><img src={navBarIcon3}/></a>
+                            <a href="https://www.linkedin.com/in/eyob-alemu-388307247"><img src={navBarIcon1}/></a>
+                            <a href="https://github.com/Warrior-jo12"><img src={githubIcon}/></a>
+                            <a href="https://t.me/Warrior_ey"><img src={telegram}/></a>
                         </div>
-                        <button className='vvd' onClick={()=> console.log('connect')}><span>Let's Connect</span></button>
+                        {/* <button className='vvd' onClick={()=> console.log('connect')}><span>Let's Connect</span></button> */}
                     </span>
                 </Navbar.Collapse>
             </Container>
