@@ -366,7 +366,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 
-/************ Projects Css ************/
+/**********PROJECT CSS**********/
+
 .project {
   padding: 80px 0;
   position: relative;
@@ -491,6 +492,29 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   right: 0;
   z-index: -4;
 }
+
+/********** Tab CSS **********/
+/* .tab-pane {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  font-size: 2rem;
+  animation: fadeInUp 1s ease-in-out;
+}
+.tab-pane p {
+  font-size: large;
+}
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+} */
 /************ Footer Css ************/
 .footer {
   padding: 0 0 50px 0;
