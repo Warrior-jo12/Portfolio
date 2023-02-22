@@ -6,7 +6,7 @@ const Banner = () => {
 
     const [loopNum, setLoopNum]= useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
-    const toRotate = ["Learning on","Web Developing", "Machine Learning", "Backend Developing"];
+    const toRotate = ["Developing myself on ","Web Developing", "Machine Learning", "Backend Developing"];
     const [text, setText] = useState('')
     const [delta, setDelta] = useState(300-Math.random()*100)
     const period = 2000
@@ -43,11 +43,15 @@ const Banner = () => {
                 <Col xs={12} md={6} xl={7}>
                     <span className='tagline'>Welcome to my Portfolio</span>
                     <h1> {`Hi I'm Eyob Alemu`} <span className='wrap'>{text}</span></h1>
-                    <p> I'm a software engineering student at Jimma University. 
-                        I really enjoy learning programming language like python and JavaScript. On the other hand, frameworks
-                         like Django and React. Additionally, I'm interested on AI which I'm enthusiastic to learn more about it.
-
+                    <p> 
+                        The universe is vast and there is no any evidence that it have a boundary. Software engineering has the same phenomena; you can manifest it in different 
+                        disciplines. Making a great impact on the world. <br/>
+    
+                        <b>"Software is like entropy. It is difficult to grasp, weighs nothing, and obeys the second law of thermodynamics; 
+                        i.e. it always increases." </b> Norman Ralph Augustine
+                          
                     </p>
+                    
                     {/* <button onClick={()=> console.log('connect')}> Let's connect <ArrowRightCircle size={25}/></button> */}
                 </Col>
                 <Col xs={12} md={6} xl={5}>

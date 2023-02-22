@@ -36,7 +36,7 @@ const Project = () => {
             <Row>
                 <Col>
                   <h2>Projects</h2>
-                  <p>Lorem ipsum is simply dummy text of the  printing and dtypw shckkj </p>
+                  <p>These are projects that I'm currently working on. Hover on to see detail about the project. </p>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav variant="pills" className='nav-pills mb-5 justify-content-center align-items-center' id='pills-tab'>
                         <Nav.Item>
@@ -62,7 +62,8 @@ const Project = () => {
                                                 <div className='proj-txtx'>
                                                     <h4>{project.title}</h4>
                                                     <span>{project.description}</span>
-                                                    <div><a style ={{textDecoration: 'none', color: 'white'}}href={project.repoUrl}>Github Repo link</a></div>
+                                                    <div>
+                                                      <a style ={{textDecoration: 'none', color: 'white'}}href={project.repoUrl}>Github Repo link</a></div>
                                                 </div>
                                             </div>
                                         </Col>
