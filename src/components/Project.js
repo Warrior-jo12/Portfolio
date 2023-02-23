@@ -8,17 +8,17 @@ const Project = () => {
     const projects = [
         {
             id: 1,
-          title: "Ey ",
+          title: "Ey Media",
           description: "This is a youtube clone. That you can search for videos , channels and choose main videos catagories. It uses youtube API  ",
           imgUrl: projImg4,
-          repoUrl:'#'
+          repoUrl:'https://github.com/Warrior-jo12/Ey-Media'
         },
         {
           id: 2,
         title: "Custom ChatGPT",
-        description: "This is website use openAI API to work. It clones chatCPT, hence you can ask anything and the bot will answer for valid question. The github repo link will be available as soon  as the project is finished",
+        description: "This is website use openAI API to work. It clones chatCPT, hence you can ask anything and the bot will answer for valid question. ",
         imgUrl: chatgpt,
-        repoUrl:'#'
+        repoUrl:'https://github.com/Warrior-jo12/custom_chatGPT'
       },
       {
         id: 3,
