@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Container, Row, Col, Tab, Nav } from 'react-bootstrap';
-import { AIPROJ, chatgpt, colorSharp, projImg1, projImg2, projImg3, projImg4} from '../assets';
+import { AIPROJ, chatgpt, colorSharp, projImg4} from '../assets';
 const Project = () => {
 
     const [IsNewProject, setIsNewProj] = useState(false)
@@ -8,7 +8,7 @@ const Project = () => {
     const projects = [
         {
             id: 1,
-          title: "Ey Media",
+          title: "Ey ",
           description: "This is a youtube clone. That you can search for videos , channels and choose main videos catagories. It uses youtube API  ",
           imgUrl: projImg4,
           repoUrl:'#'
