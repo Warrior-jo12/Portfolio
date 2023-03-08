@@ -27,7 +27,7 @@ const About = () => {
                                 <a href="https://t.me/Warrior_ey"><img src={telegram}/></a>
                             </div>
                             <p>You can download my resume from google drive 
-                                <a href='https://drive.google.com/drive/folders/1bjipud8hsEy6ULsAtI1ay4aAdePIVjNI?usp=share_link' style={{display:'block', textDecoration: 'none', color: 'white'}}>Download Resume</a>
+                                <a href='https://drive.google.com/file/d/1HYu3-4S9PJMOBuOFuZrcqJPGkljtSXAB/view?usp=share_link' style={{display:'block', textDecoration: 'none', color: 'white'}}>Download Resume</a>
                                 And you can contact me by my email <a style={{display:'block', textDecoration: 'none', color: 'white'}} href="mailto:eyutialemu@gmail.com?subject=Mail from my portfolio">Send to my email</a>
                             </p>
                             
