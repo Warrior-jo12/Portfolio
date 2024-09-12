@@ -5,6 +5,10 @@ export {default as navBarIcon2} from './img/nav-icon2.svg'
 export {default as navBarIcon3} from './img/nav-icon3.svg'
 export {default as githubIcon } from './img/githubIcon.svg'
 export {default as telegram} from './img/telegram.svg'
+export {default as email} from './img/email-mail-svgrepo-com.svg'
+export {default as flutter} from './img/flutter-svgrepo-com.svg'
+export {default as NextJs} from './img/next.jpg'
+
 
 
 export {default as headerImg} from './img/header-img.svg'

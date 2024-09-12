@@ -2,7 +2,7 @@ import React from 'react'
 import { Container , Row, Col} from 'react-bootstrap';
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import { colorSharp, python, django, django2, javascript, javascript_1, react, node, monogdb, mysql, html , css} from '../assets';
+import { colorSharp, python, django, django2, javascript, javascript_1, react, node, monogdb, mysql, html , css, NextJs, flutter} from '../assets';
 
 const Skills = () => {
     const responsive = {
@@ -62,8 +62,12 @@ const Skills = () => {
                                <h5>React</h5> 
                             </div>
                             <div className='item'>
-                               <img  src={node} alt="image"/>
-                               <h5>Node Js</h5> 
+                               <img  src={NextJs} style={{marginBottom:75}} alt="image"/>
+                               <h5>NextJs</h5> 
+                            </div>
+                            <div className='item'>
+                               <img  src={flutter} alt="image"/>
+                               <h5>Flutter</h5> 
                             </div>
                             <div className='item'>
                                <img  src={monogdb} alt="image"/>
